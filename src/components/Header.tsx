@@ -3,7 +3,7 @@ import { Github } from "lucide-react"
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-[#111318]/80 backdrop-blur-md border-b border-white/10">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 lg:px-20 h-16">
+      <div className="max-w-7xl mx-auto mt-[-64px] flex items-center justify-between px-6 md:px-12 lg:px-20 h-16">
         {/* Logo with text */}
         <div className="flex items-center gap-2 font-semibold text-white text-lg">
           <img
