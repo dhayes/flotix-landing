@@ -34,10 +34,10 @@ export function Header() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://app.flotix.io"
             className="inline-flex items-center px-4 py-1.5 text-sm font-medium text-white bg-sky-600 hover:bg-sky-700 rounded-md transition"
           >
-            Get Started
+          Launch Flotix Cloud
           </a>
         </div>
       </div>
