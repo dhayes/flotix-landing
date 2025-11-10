@@ -42,7 +42,7 @@ export function LandingHero() {
         <a href="#pricing">View Features & Pricing</a>
         </Button>
         <Button size="lg" variant="outline" className="text-white border-gray-700 hover:bg-gray-800">
-          <Play className="w-4 h-4 mr-2" /> Watch Demo
+          <Play className="w-4 h-4 mr-2" /><a href="#watch-demo">Watch Demo</a> 
         </Button>
       </div>
 
