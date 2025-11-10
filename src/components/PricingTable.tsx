@@ -12,7 +12,7 @@ export function PricingTable() {
         "MIT licensed",
       ],
       cta: "Get Started",
-      link: "#",
+      link: "https://app.flotix.io",
       highlight: false,
     },
     {
