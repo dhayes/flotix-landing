@@ -7,7 +7,7 @@ import { LandingHero } from "./components/LandingHero"
 import { PricingTable } from "./components/PricingTable"
 import { Showcase } from "./components/Showcase"
 import { WatchDemo } from "./components/WatchDemo"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
