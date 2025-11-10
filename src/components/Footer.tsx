@@ -24,6 +24,7 @@ export function Footer() {
             <li><a href="#">Features</a></li>
             <li><a href="#">Showcase</a></li>
             <li><a href="#">Use Cases</a></li>
+            <li><a href="#pricing">Pricing</a></li>
           </ul>
         </div>
 

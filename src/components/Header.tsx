@@ -6,13 +6,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto mt-[-64px] flex items-center justify-between px-6 md:px-12 lg:px-20 h-16">
         {/* Logo with text */}
         <div className="flex items-center gap-2 font-semibold text-white text-lg">
-          <img
-            src="/logo.svg"
-            alt="Flotix Logo"
-            className="w-6 h-6 rounded-md"
-          />
-          Flotix
-        </div>
+  <img
+    src="/logo.svg"
+    alt="Flotix Logo"
+    className="w-6 h-6 rounded bg-white p-0.5"
+  />
+  Flotix
+</div>
+
 
         {/* Nav links */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-white/80">
@@ -20,6 +21,7 @@ export function Header() {
           <a href="#" className="hover:text-white transition">Showcase</a>
           <a href="#" className="hover:text-white transition">Use Cases</a>
           <a href="#" className="hover:text-white transition">Docs</a>
+          <a href="#pricing" className="hover:text-white transition">Pricing</a>
         </nav>
 
         {/* GitHub + CTA */}

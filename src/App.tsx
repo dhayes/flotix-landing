@@ -4,6 +4,7 @@ import { FeaturesGrid } from "./components/FeaturesGrid"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { LandingHero } from "./components/LandingHero"
+import { PricingTable } from "./components/PricingTable"
 import { Showcase } from "./components/Showcase"
 import { WatchDemo } from "./components/WatchDemo"
 
@@ -17,6 +18,7 @@ function App() {
       <CoreFeatures />
       <WatchDemo />
       <FeaturesGrid />
+      <PricingTable />
       <CallToAction />
       <Footer />
     </div>
