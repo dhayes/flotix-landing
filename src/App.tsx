@@ -7,10 +7,12 @@ import { LandingHero } from "./components/LandingHero"
 import { PricingTable } from "./components/PricingTable"
 import { Showcase } from "./components/Showcase"
 import { WatchDemo } from "./components/WatchDemo"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <>
+    <Analytics />
     <Header />
     <div className="min-h-screen bg-black text-white">
       <LandingHero />
