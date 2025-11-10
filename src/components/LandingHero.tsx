@@ -30,7 +30,16 @@ export function LandingHero() {
       {/* Buttons */}
       <div className="relative z-10 mt-10 flex flex-col sm:flex-row gap-4">
         <Button size="lg" className="bg-sky-600 hover:bg-sky-700 text-white font-semibold">
-          Get Started
+        <a
+          href="https://app.flotix.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Launch Flotix Cloud
+        </a>
+        </Button>
+        <Button size="lg" className="bg-sky-600 hover:bg-sky-700 text-white font-semibold">
+        <a href="#pricing">View Features & Pricing</a>
         </Button>
         <Button size="lg" variant="outline" className="text-white border-gray-700 hover:bg-gray-800">
           <Play className="w-4 h-4 mr-2" /> Watch Demo
