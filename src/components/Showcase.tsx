@@ -2,9 +2,11 @@ import * as React from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const images = [
-  "/img1.jpeg",
-  "/img2.jpeg",
-  "/img3.jpeg",
+  "/img1.png",
+  "/img2.png",
+  "/img3.png",
+  "/img4.png",
+  "/img5.gif"
 ]
 
 export function Showcase() {
